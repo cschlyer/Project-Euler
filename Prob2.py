@@ -17,11 +17,8 @@ while terms[0] < 4000000:
 	sumOfNum = terms[0] + terms[1]
 	terms.pop(0)
 	terms.append(sumOfNum)
-
 	if terms[0] % 2 == 0:
 		sumOfEvens += terms[0]
-
-	print terms[0] ," ", terms[1]
 
 print "\n\n\nThe number is %d" % sumOfEvens
 
